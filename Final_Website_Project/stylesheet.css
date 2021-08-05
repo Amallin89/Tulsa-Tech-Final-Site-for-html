@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    background-color: white;
+    margin: 0px;
+    font-family: Roboto;
+}
+@media only screen and (max-width: 600px) {
+    div.main-content {
+        background-color: rgb(193, 243, 241);
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+    }
+
+    .sidenav {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        box-shadow: 0px -2px 2px 0px #6bb49b;
+    }
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(111, 202, 187);
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:rgb(43,166,156);
+    box-shadow: 0px 3px 3px 0px #2c6954;
+}
+.sidenav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:rgb(162,242,236);
+}
+.main-content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 10px;
+    background-color:rgb(230,250,250);
+    overflow-y: scroll;
+}
+    .card {
+    margin-bottom: 20px;
+    background-color: rgb(241,245,223, 1);
+    padding: 5px;
+    box-shadow: 2px 2px 2px 0px #2c6954;
+    border-radius: 5px;
+}
+.right{
+    display: none;
+}
+h1{
+    text-align: center;
+    color:rgb(242,217,53);
+}
+h2{
+    color:rgb(242,217,53);
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 50%;
+    height: 50%;
+}
+a{
+    color:rgb(235, 149, 52);
+}
+a:hover{
+    color: blue;
+}
+
